@@ -1,0 +1,4 @@
+<template>
+    <HeaderPrimaryNav />
+    <HeaderSecondaryNav />
+</template>
