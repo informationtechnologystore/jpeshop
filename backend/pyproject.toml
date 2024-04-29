@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "backend"
+version = "1.0.0"
+description = "Official backend server for Jalpa Multitrade Private Limited"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
