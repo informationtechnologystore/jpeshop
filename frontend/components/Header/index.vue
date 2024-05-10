@@ -177,12 +177,12 @@ const navigation = {
                   <div class="grid grid-cols-2 gap-x-4 gap-y-10">
                     <div v-for="item in category.featured" :key="item.name" class="group relative">
                       <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                        <img :src="item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
+                        <NuxtImg :src="item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
                       </div>
-                      <a :href="item.href" class="mt-6 block text-sm font-medium text-gray-900">
+                      <NuxtLink :href="item.href" class="mt-6 block text-sm font-medium text-gray-900">
                         <span class="absolute z-10 inset-0" aria-hidden="true" />
                         {{ item.name }}
-                      </a>
+                      </NuxtLink>
                       <p aria-hidden="true" class="mt-1 text-sm text-gray-500">Shop now</p>
                     </div>
                   </div>
@@ -190,18 +190,9 @@ const navigation = {
               </HeadlessTabPanels>
             </HeadlessTabGroup>
 
-            <div class="border-t border-gray-200 py-6 px-4 space-y-6">
+            <div class="border-t border-gray-200 pt-6 px-4 space-y-4">
               <div v-for="page in navigation.pages" :key="page.name" class="flow-root">
-                <a :href="page.href" class="-m-2 p-2 block font-medium text-gray-900">{{ page.name }}</a>
-              </div>
-            </div>
-
-            <div class="border-t border-gray-200 py-6 px-4 space-y-6">
-              <div class="flow-root">
-                <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Create an account</a>
-              </div>
-              <div class="flow-root">
-                <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Sign in</a>
+                <NuxtLink :href="page.href" class="-m-2 p-2 block font-medium text-gray-900">{{ page.name }}</NuxtLink>
               </div>
             </div>
           </div>
@@ -221,10 +212,10 @@ const navigation = {
                 <div class="h-16 flex items-center justify-between">
                   <!-- Logo (lg+) -->
                   <div class="hidden lg:flex-1 lg:flex lg:items-center">
-                    <a href="#">
+                    <NuxtLink href="#">
                       <span class="sr-only">Workflow</span>
-                      <img class="h-8 w-auto" src="~/public/logo.png" alt="Jalpa Logo" />
-                    </a>
+                      <NuxtImg class="h-8 w-auto" src="/public/logo.png" alt="Jalpa Logo" />
+                    </NuxtLink>
                   </div>
 
                   <div class="hidden h-full lg:flex">
@@ -235,7 +226,7 @@ const navigation = {
                           v-slot="{ open }">
                           <div class="relative flex">
                             <HeadlessPopoverButton
-                              :class="[open ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-700 hover:text-gray-800', 'relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px']">
+                              :class="[open ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-700 hover:text-gray-800', 'relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px']" class="outline-none">
                               {{ category.name }}
                               <ChevronDownIcon class="w-4 ml-2 hover:transform transition duration-50 ease-in-out dropdowwn-chevron" />
                             </HeadlessPopoverButton>
@@ -257,10 +248,10 @@ const navigation = {
                                         <img :src="item.imageSrc" :alt="item.imageAlt"
                                           class="object-center object-cover" />
                                       </div>
-                                      <a :href="item.href" class="mt-4 block font-medium text-gray-900">
+                                      <NuxtLink :to="item.href" class="mt-4 block font-medium text-gray-900">
                                         <span class="absolute z-10 inset-0" aria-hidden="true" />
                                         {{ item.name }}
-                                      </a>
+                                      </NuxtLink>
                                       <p aria-hidden="true" class="mt-1">Shop now</p>
                                     </div>
                                   </div>
@@ -270,9 +261,9 @@ const navigation = {
                           </transition>
                         </HeadlessPopover>
 
-                        <a v-for="page in navigation.pages" :key="page.name" :href="page.href"
+                        <NuxtLink v-for="page in navigation.pages" :key="page.name" :to="page.href"
                           class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">{{ page.name
-                          }}</a>
+                          }}</NuxtLink>
                       </div>
                     </HeadlessPopoverGroup>
                   </div>
@@ -285,38 +276,38 @@ const navigation = {
                     </button>
 
                     <!-- Search -->
-                    <a href="#" class="ml-2 p-2 text-gray-400 hover:text-gray-500">
+                    <NuxtLink to="/search" class="ml-2 p-2 text-gray-400 hover:text-gray-500">
                       <span class="sr-only">Search</span>
                       <SearchIcon class="w-6 h-6" aria-hidden="true" />
-                    </a>
+                    </NuxtLink>
                   </div>
 
                   <!-- Logo (lg-) -->
-                  <a href="#" class="lg:hidden">
+                  <NuxtLink to="/" class="lg:hidden">
                     <span class="sr-only">Workflow</span>
-                    <img src="~/public/logo.png" alt="Jalpa Logo"
+                    <NuxtImg src="~/public/logo.png" alt="Jalpa Logo"
                       class="h-8 w-auto" />
-                  </a>
+                  </NuxtLink>
 
                   <div class="flex-1 flex items-center justify-end">
                     <a href="#" class="hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block"> Search </a>
 
                     <div class="flex items-center lg:ml-8">
                       <!-- Help -->
-                      <a href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:hidden">
+                      <NuxtLink href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:hidden">
                         <span class="sr-only">Help</span>
                         <QuestionMarkCircleIcon class="w-6 h-6" aria-hidden="true" />
-                      </a>
-                      <a href="#" class="hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block">Help</a>
+                      </NuxtLink>
+                      <NuxtLink href="#" class="hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block">Help</NuxtLink>
 
                       <!-- Cart -->
                       <div class="ml-4 flow-root lg:ml-8">
-                        <a href="#" class="group -m-2 p-2 flex items-center">
+                        <NuxtLink href="#" class="group -m-2 p-2 flex items-center">
                           <ShoppingBagIcon class="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
                           aria-hidden="true" />
                         <span class="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
                         <span class="sr-only">items in cart, view bag</span>
-                      </a>
+                      </NuxtLink>
                     </div>
                   </div>
                 </div>
