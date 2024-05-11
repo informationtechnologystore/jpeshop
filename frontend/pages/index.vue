@@ -1,6 +1,6 @@
 <template>
     <!---Hero Section-->
-    <div class="bg-gradient-to-b from-blue-600 via-blue-500 to-blue-400 px-6 sm:py-20 py-10 font-[sans-serif]">
+    <div class="bg-gradient-to-b from-blue-600 via-blue-500 to-blue-400 px-6 sm:py-20 py-10 font-[sans-serif] rounded-lg">
       <div class="max-w-screen-xl mx-auto text-center text-white">
         <h1 class="text-5xl max-sm:text-3xl font-extrabold leading-tight mb-4">Welcome to JALPA</h1>
         <p class="text-lg mb-8">where FASHION neets PEOPLE.</p>
