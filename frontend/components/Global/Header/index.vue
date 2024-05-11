@@ -29,7 +29,7 @@ const navigation = {
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Clothings',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
@@ -58,7 +58,7 @@ const navigation = {
           imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Clothings',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
           imageAlt: 'Model wearing light heather gray t-shirt.',
@@ -88,9 +88,9 @@ const navigation = {
           imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Clothings',
           href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
+          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Model wearing light heather gray t-shirt.',
         },
         {
@@ -103,7 +103,7 @@ const navigation = {
         {
           name: 'Carry',
           href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
+          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg',
           imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
         },
       ],
@@ -202,7 +202,7 @@ const navigation = {
 
     <header :class="{ 'pb-20': !isVisible }">
       <nav aria-label="Top">
-        <HeaderPrimaryNav />
+        <GlobalHeaderPrimaryNav />
 
         <!-- Secondary navigation -->
         <div :class="{ 'sticky-header': !isVisible }" class="w-full header-container bg-white relative">
