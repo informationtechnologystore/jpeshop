@@ -29,14 +29,11 @@ const categories = [
 </script>
 
 <template>
-  <section
-    aria-labelledby="category-heading"
-    class="pt-10 xl:max-w-7xl xl:mx-auto xl:px-8"
-  >
+  <section aria-labelledby="category-heading" class="pt-10">
     <div>
       <h2
         id="category-heading"
-        class="text-2xl font-semibold tracking-tight text-gray-900"
+        class="text-xl font-semibold tracking-tight text-gray-900"
       >
         Shop by Category
       </h2>
