@@ -8,7 +8,7 @@ const categories = [
   {
     name: "Clothings",
     href: "/clothings",
-    imageSrc: "/clothing.jpg",
+    imageSrc: "/clothing.png",
   },
   {
     name: "Accessories",
