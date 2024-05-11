@@ -138,8 +138,8 @@ const navigation = {
     },
   ],
   pages: [
-    { name: "BestSeller", href: "#" },
-    { name: "Brands", href: "#" },
+    { name: "BestSellers", href: "/bestsellers" },
+    { name: "Top Deals", href: "/top-deals" },
   ],
 };
 </script>
