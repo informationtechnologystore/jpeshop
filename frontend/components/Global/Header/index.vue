@@ -307,7 +307,7 @@ const navigation = {
                 <div class="h-16 flex items-center justify-between">
                   <!-- Logo (lg+) -->
                   <div class="hidden lg:flex-1 lg:flex lg:items-center">
-                    <NuxtLink href="#">
+                    <NuxtLink to="/">
                       <span class="sr-only">Workflow</span>
                       <NuxtImg
                         class="h-8 w-auto"
@@ -500,7 +500,7 @@ const navigation = {
 .header-container {
   top: 0;
   z-index: 0;
-  transition: top 150ms linear, z-index 150ms linear;
+  transition: top 300ms linear, z-index 300ms linear;
 }
 .sticky-header {
   @apply z-20 fixed top-0;
