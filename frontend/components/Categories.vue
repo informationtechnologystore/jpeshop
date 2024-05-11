@@ -3,27 +3,27 @@ const categories = [
   {
     name: "New Arrivals",
     href: "/new-arrivals",
-    imageSrc: "/new-arrival.png",
+    imageSrc: "/categories/new-arrival.png",
   },
   {
     name: "Clothings",
     href: "/clothings",
-    imageSrc: "/clothing.png",
+    imageSrc: "/categories/clothing.png",
   },
   {
     name: "Accessories",
     href: "/accessories",
-    imageSrc: "/accessories.jpg",
+    imageSrc: "/categories/accessories.jpg",
   },
   {
     name: "Carry",
     href: "/carry",
-    imageSrc: "/carry.jpg",
+    imageSrc: "/categories/carry.jpg",
   },
   {
     name: "Offers",
     href: "/top-deals",
-    imageSrc: "/top-deals.jpg",
+    imageSrc: "/categories/top-deals.jpg",
   },
 ];
 </script>

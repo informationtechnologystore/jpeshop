@@ -127,10 +127,9 @@ const navigation = {
             "Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.",
         },
         {
-          name: "Carry",
+          name: "Toys",
           href: "#",
-          imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg",
+          imageSrc: "/kids/toys.jpg",
           imageAlt:
             "Model putting folded cash into slim card holder olive leather wallet with hand stitching.",
         },
@@ -138,7 +137,7 @@ const navigation = {
     },
   ],
   pages: [
-    { name: "BestSellers", href: "/bestsellers" },
+    { name: "Best Sellers", href: "/bestsellers" },
     { name: "Top Deals", href: "/top-deals" },
   ],
 };

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gradient-to-b from-blue-600 via-blue-500 to-blue-400 px-6 sm:py-20 py-10 font-[sans-serif] rounded-lg mb-8"
+    class="bg-gradient-to-b from-blue-600 via-blue-500 to-blue-400 px-6 sm:py-20 py-10 rounded-lg mb-8"
   >
     <div class="max-w-screen-xl mx-auto text-center text-white">
       <h1 class="text-5xl max-sm:text-3xl font-extrabold leading-tight mb-4">
