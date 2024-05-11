@@ -1,5 +1,5 @@
 <script setup>
-import { MenuIcon, QuestionMarkCircleIcon, SearchIcon, ShoppingBagIcon, XIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/vue/outline'
+import { MenuIcon, PhoneIcon, SearchIcon, ShoppingBagIcon, XIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/vue/outline'
 import { useIntersectionObserver } from '@vueuse/core';
 
 const open = ref(false);
@@ -295,10 +295,10 @@ const navigation = {
                     <div class="flex items-center lg:ml-8">
                       <!-- Help -->
                       <NuxtLink href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:hidden">
-                        <span class="sr-only">Help</span>
-                        <QuestionMarkCircleIcon class="w-6 h-6" aria-hidden="true" />
+                        <span class="sr-only">Contact</span>
+                        <PhoneIcon class="w-6 h-6" aria-hidden="true" />
                       </NuxtLink>
-                      <NuxtLink href="#" class="hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block">Help</NuxtLink>
+                      <NuxtLink href="#" class="hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block">Contact Us</NuxtLink>
 
                       <!-- Cart -->
                       <div class="ml-4 flow-root lg:ml-8">
