@@ -7,7 +7,7 @@
         <div class="mt-12 sm:flex sm:justify-center">
               <div class="rounded-md shadow">
                 <button class="w-full flex items-center justify-center px-8 py-3 text-base font-semibold rounded-md text-indigo-600 bg-white hover:text-indigo-500 hover:bg-indigo-100 transition duration-150 ease-in-out">
-                    Start Expolring
+                    Start Exploring
                 </button>
               </div>
               <div class="mt-3 sm:mt-0 sm:ml-4">
