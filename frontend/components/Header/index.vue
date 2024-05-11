@@ -214,7 +214,7 @@ const navigation = {
                   <div class="hidden lg:flex-1 lg:flex lg:items-center">
                     <NuxtLink href="#">
                       <span class="sr-only">Workflow</span>
-                      <NuxtImg class="h-8 w-auto" src="/public/logo.png" alt="Jalpa Logo" />
+                      <NuxtImg class="h-8 w-auto" src="/logo.png" alt="Jalpa Logo" />
                     </NuxtLink>
                   </div>
 
@@ -285,7 +285,7 @@ const navigation = {
                   <!-- Logo (lg-) -->
                   <NuxtLink to="/" class="lg:hidden">
                     <span class="sr-only">Workflow</span>
-                    <NuxtImg src="~/public/logo.png" alt="Jalpa Logo"
+                    <NuxtImg src="/logo.png" alt="Jalpa Logo"
                       class="h-8 w-auto" />
                   </NuxtLink>
 
