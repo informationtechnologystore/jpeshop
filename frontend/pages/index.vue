@@ -3,5 +3,7 @@
 
   <!-- Category section -->
   <Categories />
-  <div id="explore"></div>
+  <div id="explore" class="pt-10">
+    <ProductCard />
+  </div>
 </template>

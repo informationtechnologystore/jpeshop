@@ -36,7 +36,7 @@ const categories = [
     <div>
       <h2
         id="category-heading"
-        class="text-2xl font-bold tracking-tight text-gray-900"
+        class="text-2xl font-semibold tracking-tight text-gray-900"
       >
         Shop by Category
       </h2>
