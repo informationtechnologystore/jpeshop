@@ -119,9 +119,8 @@ const address = {
           <div>
             <p class="text-gray-700">
               {{ address.apt }}<br />
-              {{ address.street }} , {{ address.city }}<br />
-              {{ address.state }} {{ address.zip }} <br />
-              {{ address.country }}
+              {{ address.street }}, {{ address.city }}<br />
+              {{ address.state }} {{ address.zip }}, {{ address.country }}
             </p>
           </div>
           <div>
