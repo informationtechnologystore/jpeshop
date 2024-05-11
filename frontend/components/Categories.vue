@@ -65,7 +65,7 @@ const categories = [
               </span>
               <span
                 aria-hidden="true"
-                class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-50"
+                class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-60"
               />
               <span
                 class="relative mt-auto text-center text-xl font-semibold text-white"
