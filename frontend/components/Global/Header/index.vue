@@ -316,10 +316,9 @@ const navigation = {
           </div>
         </div>
       </div>
-
+      <div ref="target"></div>
     </nav>
   </header>
-  <div ref="target"></div>
 </div>
 
 </template>
