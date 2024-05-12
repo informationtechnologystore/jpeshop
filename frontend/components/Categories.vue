@@ -41,9 +41,7 @@ const categories = [
 
     <div class="mt-4 flow-root">
       <div class="my-2">
-        <div
-          class="box-content py-2 relative h-80 overflow-x-auto xl:overflow-visible overflow-y-hidden pb-8"
-        >
+        <div class="box-content py-2 relative h-80 overflow-x-auto pb-8">
           <div
             class="absolute min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-0 xl:grid xl:grid-cols-5 xl:gap-x-8"
           >
