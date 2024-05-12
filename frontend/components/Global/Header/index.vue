@@ -293,14 +293,13 @@ const navigation = {
 
         <!-- Secondary navigation -->
         <div
-          :class="{ 'sticky-header': !isVisible }"
+          :class="{
+            'sticky-header header-shadow bg-opacity-70 backdrop-blur-xl':
+              !isVisible,
+          }"
           class="w-full header-container bg-white relative"
         >
-          <div
-            :class="{
-              'header-shadow bg-opacity-70 backdrop-blur-xl': !isVisible,
-            }"
-          >
+          <div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="border-b border-gray-200">
                 <div class="h-16 flex items-center justify-between">
