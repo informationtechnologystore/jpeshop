@@ -30,7 +30,7 @@ const { title, image, gender, mrp, sp } = toRefs(props);
         </p>
         <div class="flex items-center">
           <p class="text-lg font-semibold text-black cursor-auto my-3">
-            {{ "NPR " + sp }}
+            {{ "रु " + sp }}
           </p>
           <del v-if="mrp > sp">
             <p class="text-sm text-gray-600 cursor-auto ml-2">{{ mrp }}</p>
