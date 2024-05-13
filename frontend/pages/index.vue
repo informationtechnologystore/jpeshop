@@ -23,7 +23,7 @@
         image="/logo.png"
         gender="male"
         mrp="599"
-        sp="499"
+        sp="599"
         href="/for/men"
       />
     </ProductContainer>

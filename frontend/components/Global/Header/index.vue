@@ -32,7 +32,7 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "#",
+          href: "/new-arrivals/women",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
           imageAlt:
@@ -40,7 +40,7 @@ const navigation = {
         },
         {
           name: "Clothings",
-          href: "#",
+          href: "/clothings/women",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
           imageAlt:
@@ -48,7 +48,7 @@ const navigation = {
         },
         {
           name: "Accessories",
-          href: "#",
+          href: "/accessories/women",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg",
           imageAlt:
@@ -56,7 +56,7 @@ const navigation = {
         },
         {
           name: "Carry",
-          href: "#",
+          href: "/carry/women",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg",
           imageAlt:
@@ -69,7 +69,7 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "#",
+          href: "/new-arrivals/men",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg",
           imageAlt:
@@ -77,14 +77,14 @@ const navigation = {
         },
         {
           name: "Clothings",
-          href: "#",
+          href: "/clothings/men",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg",
           imageAlt: "Model wearing light heather gray t-shirt.",
         },
         {
           name: "Accessories",
-          href: "#",
+          href: "/accessories/men",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg",
           imageAlt:
@@ -92,7 +92,7 @@ const navigation = {
         },
         {
           name: "Carry",
-          href: "#",
+          href: "/carry/men",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg",
           imageAlt:
@@ -105,7 +105,7 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "#",
+          href: "/new-arrivals/kids",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg",
           imageAlt:
@@ -113,14 +113,14 @@ const navigation = {
         },
         {
           name: "Clothings",
-          href: "#",
+          href: "/clothings/kids",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
           imageAlt: "Model wearing light heather gray t-shirt.",
         },
         {
           name: "Accessories",
-          href: "#",
+          href: "/accessories/kids",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg",
           imageAlt:
@@ -128,7 +128,7 @@ const navigation = {
         },
         {
           name: "Toys",
-          href: "#",
+          href: "/toys",
           imageSrc: "/kids/toys.jpg",
           imageAlt:
             "Model putting folded cash into slim card holder olive leather wallet with hand stitching.",

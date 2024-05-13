@@ -49,7 +49,7 @@ const categories = [
               v-for="category in categories"
               :key="category.name"
               :to="category.href"
-              class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto"
+              class="relative w-56 h-80 rounded-lg p-4 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto"
             >
               <span aria-hidden="true" class="absolute inset-0">
                 <NuxtImg
@@ -60,7 +60,7 @@ const categories = [
               </span>
               <span
                 aria-hidden="true"
-                class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-60"
+                class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-70"
               />
               <span
                 class="relative mt-auto text-center text-xl font-semibold text-white"

@@ -20,7 +20,7 @@ const { title, image, gender, mrp, sp } = toRefs(props);
       <NuxtImg
         :src="image"
         :alt="title"
-        class="h-80 w-72 object-cover rounded-t-xl"
+        class="h-80 w-72 object-contain p-2 rounded-t-xl"
       />
       <hr />
       <div class="px-4 py-3 w-72">
